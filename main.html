@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/tao.css">
+</head>
+<script type="text/javascript" src="jquery/jquery.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<body>
+<div id="outter_div">
+    <div id="nav">
+        <div id="nav_signin_div">
+            <a id="nav_signin_a" href="#" style="color:red;">亲，请登录</a>
+        </div>
+        <div id="nav_signup_div">
+            <a id="nav_signup_a" href="#">免费注册</a>
+        </div>
+
+        <div id="nav_mobile_div">
+            <a id="nav_mobile_a" href="#">手机逛淘宝</a>
+        </div>
+        <div id="nav_right">
+            <div id="nav_b_mytb_div">
+                <a id="nav_mytb_a" name="nav_b_mytb_div" href="#"><span
+                        id="down-arrow" class="down-arrow"></span>我的淘宝</a>
+
+                <div id="chil_mytb_div" name="nav_b_mytb_div" style="display:none">
+                    <ul id="mytbchil_ul">
+                        <li class="mytbchil_li">已买到的宝贝</li>
+                        <li class="mytbchil_li">我的足迹</li>
+                        <li class="mytbchil_li">我的上新</li>
+                        <li class="mytbchil_li">爱逛街</li>
+                        <li class="mytbchil_li">淘宝达人</li>
+                        <li class="mytbchil_li">新欢</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="nav_b_shopcar_div">
+                <a id="nav_shopcar_a" href="#"><span id="nav_cart-ico"
+                                                     class="nav_cart-ico"></span>购物车<span id="down-arrow-orange"
+                                                                                          class="down-arrow-orange"></span> </a>
+            </div>
+            <div id="nav_b_folder_div">
+                <a id="nav_folder_a" name="nav_b_folder_div" href="#"><span
+                        id="nva-start-ico" class="nva-start-ico"></span> 收藏夹 <span
+                        id="nav-folder-ico" class="down-arrow"></span> </a>
+                <div id="chil_folder_div" name="nav_b_folder_div"
+                     style="display:none">
+                    <ul id="folderchil_ul">
+                        <li class="folderchil_li">收藏的宝贝</li>
+                        <li class="folderchil_li">收藏的店铺</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="nav_b_goods_div">
+                <a id="nav_goods_a" href="#">商品分类</a>
+            </div>
+            <div id="nav_su_div">
+                <span id="nav-su-ico" class="nav-su-ico">|</span>
+            </div>
+            <div id="nav_b_saler_div">
+                <a id="nav_saler_a" name="nav_b_saler_div" href="#">卖家中心<span
+                        id="nav-saler-ico" class="down-arrow"></span> </a>
+                <div id="chil_saler_div" name="nav_b_saler_div"
+                     style="display:none">
+                    <ul id="folderchil_ul">
+                        <li class="salerchil_li">免费开店</li>
+                        <li class="salerchil_li">已卖出的宝贝</li>
+                        <li class="salerchil_li">出售中的宝贝</li>
+                        <li class="salerchil_li">卖家服务市场</li>
+                        <li class="salerchil_li">卖家培训中心</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="nav_b_cust_div">
+                <a id="nav_cust_a" name="nav_b_cust_div" href="#">联系客服<span id="nav-cust-ico"
+                                                                            class="down-arrow"></span> </a>
+                <div id="chil_cust_div" name="nav_b_cust_div"
+                     style="display:none">
+                    <ul id="custchil_ul">
+                        <li class="custchil_li">消费者克服</li>
+                        <li class="custchil_li">卖家客服</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="nav_b_net_div">
+                <a id="nav_net_a" name="nav_b_net_div" href="#"><span id="nav-nva-ico"
+                                                                      class="nav-nva-ico"></span>网站导航<span id="nav-net-ico"
+                                                                                                           class="down-arrow-orange"></span> </a>
+
+                <div id="chil_net_div" name="nav_b_net_div"
+                     style="display:none">
+                    <div id="chil_chil1_net_div">
+                        <div id="chil_chil1_net_them_div">
+                           <div id="chil_chil1_net_title_div">主题市场</div>
+                            <div id="chil_chil1_net_cont_div">
+                                <ul class="chil_chil1_net_cont_ul">
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘宝女人</a><img src="image/hot.gif" /></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">运动派</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">情侣</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘宝男人</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">孕婴童</a><img src="image/hot.gif" /></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">家居</a></li>
+                                </ul>
+                                <ul  class="chil_chil1_net_cont_ul">
+                                    <li class="chil_chil1_net_cont_li"><a href="#">美容护肤</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">中老年</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">美食</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">海外直邮</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">有车族</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">装修</a></li>
+                                </ul>
+                                <ul class="chil_chil1_net_cont_ul">
+                                    <li class="chil_chil1_net_cont_li"><a href="#">手机数码</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">生活家</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">游戏</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">保险理财</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">动漫</a></li>
+
+                                </ul>
+                                <div class="chil_chil1_net_su"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="chil_chil2_net_div">
+                        <div id="chil_chil1_net_shop_div">
+                            <div id="chil_chil1_net_shop_title_div">特色购物</div>
+                            <div id="chil_chil1_net_shop_cont_div">
+                                <ul class="chil_chil1_net_cont_ul">
+                                    <li class="chil_chil1_net_cont_li"><a href="#">天天特价</a><img src="image/hot.gif" /></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘宝中筹</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘宝二手</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘宝奇葩</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘宝教育</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">生活服务</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">同城便民</a></li>
+                                </ul>
+                                <ul  class="chil_chil1_net_cont_ul">
+                                    <li class="chil_chil1_net_cont_li"><a href="#">免费试用</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘金币</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">全球购</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘女郎</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">夜抢购</a><img src="image/hot.gif" /></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">拍卖会</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">爱逛街</a></li>
+                                </ul>
+                                <ul class="chil_chil1_net_cont_ul">
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘宝达人</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">清仓</a><img src="image/new.gif" /></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">新欢</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">挑食</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">星店</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">腔调</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">逛搭配</a></li>
+
+                                </ul>
+                                <div class="chil_chil1_net_su"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="chil_chil3_net_div">
+                        <div id="chil_chil3_net_hot_div">
+                            <div id="chil_chil1_net_hot_title_div">当前热点</div>
+                            <div id="chil_chil1_net_hot_cont_div">
+                                <ul class="chil_chil1_net_cont_ul">
+                                    <li class="chil_chil1_net_cont_li"><a href="#">天天中奖</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">美白修复</a><img src="image/hot.gif" /></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">海外精品</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">宅品精选</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">大码女装</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">急聘客服</a></li>
+                                </ul>
+                                <ul  class="chil_chil1_net_cont_ul">
+                                    <li class="chil_chil1_net_cont_li"><a href="#">新鲜土货</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">热卖单鞋</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">特价旅行</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">新房装修</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">我要泡妞</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">免费APP</a></li>
+                                </ul>
+                                <ul class="chil_chil1_net_cont_ul">
+                                    <li class="chil_chil1_net_cont_li"><a href="#">美丽裙装</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">智能数码</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">宝贝最爱</a><img src="image/new.gif" /></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">宝贝计划</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">全球美食</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">洗照片</a></li>
+
+                                </ul>
+                                <div class="chil_chil1_net_su"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="chil_chil4_net_div">
+                        <div id="chil_chil4_net_more_div">
+                            <div id="chil_chil4_net_more_title_div">更多精彩</div>
+                            <div id="chil_chil1_net_more_cont_div">
+                                <ul class="chil_chil1_net_cont_ul">
+                                    <li class="chil_chil1_net_cont_li"><a href="#">阿里旺旺</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">买房租房</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">零食百货</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘公仔</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">司法拍卖</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘宝台湾</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">闺蜜淘货</a></li>
+                                </ul>
+                                <ul  class="chil_chil1_net_cont_ul">
+                                    <li class="chil_chil1_net_cont_li"><a href="#">支付宝</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">大众评审</a><img src="image/hot.gif" /></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">余额宝</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">浏览器</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">查寄快递</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘宝全球</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">B格</a><img src="image/new.gif" /></li>
+
+                                </ul>
+                                <ul class="chil_chil1_net_cont_ul">
+                                    <li class="chil_chil1_net_cont_li"><a href="#">来往</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">天猫国际</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">整点秒杀</a></li>
+                                    <li class="No additional benefitschil_chil1_net_cont_li"><a href="#">我帮你</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘宝香港</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘宝东南亚</a></li>
+                                    <li class="chil_chil1_net_cont_li"><a href="#">淘宝饰品</a></li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <div id="search-bar">
+        <div id="research-bar-moth-ico"><img src="image/logo.gif" ></div>
+        <div id="research-search">
+            <div  id="research-bar-top">
+                <a   class="search-bao research-font" href="#">宝贝</a>
+                <a   class="search-tian research-font" href="#">天猫</a>
+                <a   class="search-dian research-font" href="#">店铺</a>
+
+            </div>
+            <div  id="search-bot-bar"><span id="search-ico"></span><span id="sou_font">有山有水的生态鱼缸，赏心悦目妥妥哒~</span>
+            </div>
+            <a href="#" id="font-sch">搜索</a>
+            <a href="#" id="font-gsch">高级搜索</a>
+            <div id="bottom-bar">
+                <a href="#" style="color:red">雨衣</a>
+                <a href="#">时尚连衣裙</a>
+                <a href="#" style="color:red">T恤男夏</a>
+                <a href="#">2015连衣裙</a>
+                <a href="#">时尚女装</a>
+                <a href="#">连衣裙夏</a>
+                <a href="#">凉鞋女夏</a>
+                <a href="#" style="color:red">时尚女T恤</a>
+                <a href="#">凉鞋女夏</a>
+                <a href="#">男T恤</a>
+                <a href="#">行车记录仪</a>
+                <a href="#">真丝连衣裙</a>
+                <a href="#">短裤男夏</a>
+                <a href="#">更多</a>
+            </div>
+        </div>
+    </div>
+
+   <div id="center-content">
+       <div id="contents-left">
+
+       </div>
+       <div id="contents-top-bar">
+
+       </div>
+
+   </div>
+
+
+
+</div>
+</body>
+</html>
