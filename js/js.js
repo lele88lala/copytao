@@ -12,18 +12,93 @@ $(document).ready(function() {
 
 		});
 	});
-  $(".search-bao").hover(function(){
+  $("#search-bao").click(function(){
 
-	  $(".search-bao").addClass('search-baos');
+	  $("#search-bao").css({
+		  "background-color": "#ff4400",
+		  "color": "#ffffff",
+		  "font-weight": "bolder"
+	  });
+	  $("#search-bot-bar").css({
 
-		  $(".search-tian").remove('search-tians');
-		  $(".search-dian").remove('search-dians');
+		  "border":"3px solid #ff4400"
+	  });
+	  $("#font-sch").css({
 
+		  "background":"#ff4400"
+	  });
 
+	  $("#search-tian").css({
+		  "background-color": "white",
+		  "font-weight": "normal",
+		  "color": "#333333",
+	  });
+
+	  $("#search-dian").css({
+		  "background-color": "white",
+		  "font-weight": "normal",
+		  "color": "#333333",
+	  });
   });
-	$(".search-tian").mousedown(function(){
-		$(".search-tian").addClass('search-tians');
-		$(".search-bao").remove('search-baos');
+	$("#search-tian").click(function(){
+
+		$("#search-tian").css({
+			"background-color": "#8600ff",
+			"color": "#ffffff",
+			"font-weight": "bolder"
+		});
+
+
+		$("#search-bot-bar").css({
+
+			"border":"3px solid #8600ff"
+		});
+		$("#font-sch").css({
+
+			"background":"#8600ff"
+		});
+		$("#search-bao").css({
+			"background-color": "white",
+			"font-weight": "normal",
+			"color": "#333333",
+		});
+
+		$("#search-dian").css({
+			"background-color": "white",
+			"font-weight": "normal",
+			"color": "#333333",
+		});
+	});
+	$("#search-dian").click(function(){
+
+		$("#search-dian").css({
+			"background-color": "#0072e3",
+			"color": "#ffffff",
+			"font-weight": "bolder"
+		});
+		$("#search-bot-bar").css({
+
+			"border":"3px solid #0072e3"
+		});
+		$("#font-sch").css({
+
+			"background":"#0072e3"
+		});
+		$("#search-bao").css({
+			"background-color": "white",
+			"font-weight": "normal",
+			"color": "#333333",
+		});
+
+		$("#search-tian").css({
+			"background-color": "white",
+			"font-weight": "normal",
+			"color": "#333333",
+		});
+	});
+	$("#search-tian").mousedown(function(){
+		$("#search-tian").addClass('search-tians');
+		$("#search-bao").remove('search-baos');
 
 	});
 	$(".search-dian").mousedown(function(){

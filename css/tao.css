@@ -396,44 +396,26 @@ div[id^="nav_"]{
 	position:relative;
 	z-index:-4;
 }
-.search-bao{
+#search-bao{
 
-	  color:blue;
 	  background-color:#ff4400;
 	  text-align:center;
 	  width:50px;
 	  height:20px;
 	  padding-top:5px;
 	  margin-left:20px;
+	  color:white;
+	 font-weight: bolder;
 
   }
-.search-baos{
-	color:white;
-	background-color:#ff4400;
-	text-align:center;
-	width:50px;
-	height:20px;
-	padding-top:5px;
-	margin-left:20px;
-
-
-}
-.search-tian{
+#search-tian{
 	background-color:white;
 	text-align:center;
 	width:50px;
 	height:20px;
 	padding-top:5px;
 }
-.search-tians{
-	background-color:#ff4400;
-	text-align:center;
-	width:50px;
-	height:20px;
-	padding-top:5px;
-	color:white;
-}
-.search-dian{
+#search-dian{
 	background-color:white;
 	text-align:center;
 	width:50px;
@@ -441,14 +423,7 @@ div[id^="nav_"]{
 	padding-top:5px;
 
 }
-.search-dians{
-	background-color:#336666;
-	text-align:center;
-	width:50px;
-	height:20px;
-	padding-top:5px;
 
-}
 #insert-bar{
 	width:599px;
 	height:25px;
