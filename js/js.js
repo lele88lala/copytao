@@ -107,4 +107,19 @@ $(document).ready(function() {
 		$(".search-bao").remove('search-baos');
 
 	});
+	$("#input_text").focus();
+	$("#input_text").mousedown(function(){
+		$("#search-bot-bar-face").hide();
+		$("#search-bot-bar-icon").hide();
+	});
+	$("#input_text").mouseout(function(){
+		if ($("#input_text").val() !="") {
+			$("#search-bot-bar-face").hide();
+			$("#search-bot-bar-icon").hide();
+		} else {
+			$("#search-bot-bar-face").show();
+			$("#search-bot-bar-icon").show();
+		}
+	});
 });
+

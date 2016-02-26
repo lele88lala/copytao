@@ -65,12 +65,13 @@ a:hover {
 }
 #nav_cart-ico{
 	background: url(../image/cart.gif) no-repeat center;
-	width:12px;
-	height:12px;
+	width:10px;
+	height:10px;
 	display:block;
 	float:left;
 	margin-left:5px;
 	margin-right:5px;
+	margin-top:3px;
 }
 .down-arrow-orange{
 	background: url(../image/down-arrow-orange.gif) no-repeat center;
@@ -79,15 +80,17 @@ a:hover {
 	display: block;
 	float:right;
 	margin-right:5px;
+	margin-top:3px;
 }
 #nva-start-ico{
 	background: url(../image/star.gif) no-repeat center;
-	width: 10px;
-	height: 10px;
+	width: 9px;
+	height: 9px;
 	display: block;
 	float:left;
 	margin-left:5px;
 	margin-right:5px;
+	margin-top:3px;
 }
 #nav-nva-ico{
 	background: url(../image/rod.gif) no-repeat center;
@@ -97,6 +100,7 @@ a:hover {
 	float:left;
 	margin-left:5px;
 	margin-right:5px;
+	margin-top:4px;
 }
 div[id^="nav_"]{
 
@@ -132,7 +136,6 @@ div[id^="nav_"]{
 	padding-top: 10px;
 	padding-left: 5px;
 	padding-right: 5px;
-
 }
 .nav_b_mytb_div{
 	display: block;
@@ -143,7 +146,7 @@ div[id^="nav_"]{
 	padding-left: 5px;
 	padding-right: 5px;
 	background-color: #fff;
-	border: 1px solid #eeeeee;
+	border: 0px solid #eeeeee;
 	border-top: none;
 	border-bottom: none;
 }
@@ -438,7 +441,7 @@ div[id^="nav_"]{
 	height: 30px;
 	text-align: center;
 	padding-top: 6px;
-	font-size: 22px;
+	font-size: 20px;
 	color: white;
 	background: #ff4400;
 	text-decoration: none;
@@ -449,7 +452,7 @@ div[id^="nav_"]{
 	width: 30px;
 	height: 30px;
 	text-align: center;
-	padding-top: 5px;
+	padding-top: 1px;
 	font-size: 12px;
 	text-decoration: none;
 	margin-left:5px;
@@ -507,4 +510,26 @@ div[id^="nav_"]{
 	background-color:red;
 
 
+}
+#input_text{
+	width:600px;
+	height:29px;
+	padding-top:-250px;
+	border:none;
+	outline:0px;
+}
+#search-bot-bar-face{
+	float:left;
+	margin-top:-25px;
+	margin-left:25px;
+	z-index: 2;
+	position:relative;
+	color:#999999;
+}
+#search-bot-bar-icon{
+	float:left;
+	margin-top:-21px;
+	margin-left:10px;
+	z-index: 2;
+	position:relative;
 }
